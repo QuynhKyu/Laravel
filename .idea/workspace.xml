@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f74b95d1-f6a7-4b10-bfcd-d97a6e99ac95" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/lar.tuto.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/app/Console/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/app/Exceptions/Handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/app/Http/Controllers/AdminController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/app/Http/Controllers/Auth/Admin/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/app/Http/Controllers/Auth/Seller/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/app/Http/Controllers/SellerController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/app/Http/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/app/Model/AdminModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/app/Model/SellerModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/app/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/artisan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/bootstrap/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/bootstrap/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/config/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/config/broadcasting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/config/cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/config/filesystems.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/config/hashing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/config/logging.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/config/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/config/queue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/config/services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/config/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/config/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/database/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/database/factories/UserFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/database/migrations/2019_02_16_091012_create_admins.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/database/migrations/2019_02_23_143155_create_sellers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/public/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/public/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/public/svg/403.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/public/svg/404.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/public/svg/500.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/public/svg/503.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/resources/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/resources/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/resources/js/components/ExampleComponent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/resources/lang/en/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/resources/lang/en/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/resources/lang/en/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/resources/lang/en/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/resources/sass/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/resources/sass/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/resources/views/admin/auth/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/resources/views/admin/auth/register.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/resources/views/admin/dashboard.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/resources/views/admin/layouts/app.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/resources/views/auth/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/resources/views/auth/passwords/email.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/resources/views/auth/register.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/resources/views/auth/verify.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/resources/views/home.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/resources/views/seller/auth/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/resources/views/seller/auth/register.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/resources/views/seller/dashboard.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/resources/views/seller/layouts/app.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/resources/views/welcome.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/routes/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/routes/channels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/routes/console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/server.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/storage/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/storage/app/public/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/storage/framework/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/storage/framework/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/storage/framework/testing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/storage/framework/views/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/storage/logs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/tests/CreatesApplication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/tests/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/webpack.mix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authen/yarn.lock" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="184611183">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="php" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PHP" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/authen/app/Http/Kernel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-306" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/authen/app/Http/Middleware/Authenticate.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/authen/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-5" />
+    <option name="width" value="681" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\XAMPP\xampp\htdocs\lar.tuto\lar.tuto" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f74b95d1-f6a7-4b10-bfcd-d97a6e99ac95" name="Default Changelist" comment="" />
+      <created>1550936784185</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550936784185</updated>
+      <workItem from="1550936787099" duration="457000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="457000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/authen/app/Http/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authen/app/Http/Middleware/Authenticate.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
