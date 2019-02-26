@@ -77,7 +77,7 @@ Route::prefix('admin')->group(function() {
      * Route cho các nhà cung cấp sản phẩm (seller)
      */
 
-Route::prefix('seller')->group(function() {
+    Route::prefix('seller')->group(function() {
     // Gom nhóm các route cho phần admin
 
     /**
@@ -126,3 +126,63 @@ Route::prefix('seller')->group(function() {
      */
     Route::post('logout', 'Auth\Seller\LoginController@logout')->name('seller.auth.logout');
 });
+
+/**
+ * Route cho các nhà vận chuyển (shipper)
+ */
+
+        Route::prefix('shipper')->group(function() {
+            // Gom nhóm các route cho phần shipper
+
+        /**
+         * URL : authen.com/shipper/
+         * Route mặc định của shipper
+         */
+        Route::get('/', 'ShipperController@index')->name('shipper.dashboard');
+
+        /**
+         * URL : authen.com/shipper/dashboard
+         * Route đăng nhập thành công
+         */
+        Route::get('/dashboard', 'ShipperController@index')->name('shipper.dashboard');
+
+        /**
+         * URL : authen.com/shipper/register
+         * Route trả về view dùng để đăng ký tài khoản shipper
+         */
+        Route::get('register', 'ShipperController@create')->name('shipper.register');
+
+        /**
+         * URL : authen.com/shipper/register
+         * Phương thức là POST
+         * Route dùng để đăng ký 1 shipper từ form POST
+         */
+        Route::post('register', 'ShipperController@store')->name('shipper.register.store');
+
+        /**
+         * URL : authen.com/shipper/login
+         * METHOD : GET
+         * Route trả về view đăng nhập shipper
+         */
+        Route::get('login', 'Auth\Shipper\LoginController@login')->name('shipper.auth.login');
+
+        /**
+         * URL : authen.com/shipper/login
+         * METHOD : POST
+         * Route xử lý quá trình đăng nhập shipper
+         */
+        Route::post('login', 'Auth\Shipper\LoginController@loginShipper')->name('shipper.auth.loginShipper');
+
+        /**
+         * URL : authen.com/shipper/logout
+         * METHOD : POST
+         * Route dùng để đăng xuất
+         */
+        Route::post('logout', 'Auth\Shipper\LoginController@logout')->name('shipper.auth.logout');
+
+
+    });
+
+
+
+

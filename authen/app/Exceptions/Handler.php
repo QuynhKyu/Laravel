@@ -71,6 +71,9 @@ class Handler extends ExceptionHandler
                case 'seller' :
                    $login = 'seller.auth.login';
                    break;
+               case 'shipper' :
+                   $login = 'shipper.auth.login';
+                   break;
                default:
                    $login = 'login';
                    break;
